@@ -86,6 +86,24 @@ a {
     border-radius: 50px;
 }
 
+.product-card img {
+    border-radius: 16px;
+}
+
+.product-details h5 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--dark);
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.product-details p {
+    font-size: 18px;
+}
+
 /* =====================================
    HEADER
 ===================================== */
@@ -1094,7 +1112,8 @@ section.cta-section.detail-cta-section {
 }
 
 .footer-links li {
-    margin-bottom: 4px;
+    margin-bottom: 14px;
+    line-height: 20px;
 }
 
 .footer-links a {
