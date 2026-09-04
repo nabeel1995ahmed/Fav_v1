@@ -19,11 +19,42 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Barlow';
+    src: url(../images/fonts/Barlow/Barlow-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(../images/fonts/Barlow/Barlow-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(../images/fonts/Barlow/Barlow-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(../images/fonts/Barlow/Barlow-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(../images/fonts/Barlow/Barlow-Bold.ttf);
+    font-weight: 700;
+}
+
 body {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow';
     overflow-x: hidden;
     color: #333;
     line-height: 1.7;
+    font-weight: 400;
 }
 
 img {
@@ -259,7 +290,7 @@ a {
 ===================================== */
 
 .hero-section {
-    /* background: url(../images/home-page/main-banner.svg); */
+    background-image: url(../images/home-page/main-banner.svg);
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -1437,6 +1468,7 @@ section.featured-section {
     .hero-section {
         padding: 50px 0px;
         /* text-align: center; */
+        background-image: url(../images/home-page/main-banner-tablet-version.png);
     }
 
     .hero-image {
@@ -1610,6 +1642,7 @@ section.featured-section {
 
     section.hero-section {
         text-align: center;
+        background-image: url(../images/home-page/main-banner-mobile-version.png);
     }
 
     .hero-features,
