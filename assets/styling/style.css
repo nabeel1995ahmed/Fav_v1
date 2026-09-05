@@ -190,7 +190,7 @@ a {
     opacity: 1;
 }
 
-.product-card:hover  {
+.product-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 20px 45px rgba(2, 26, 58, 0.12);
 }
@@ -219,6 +219,11 @@ a {
     bottom: -100px;
     border: 2px solid rgba(248, 114, 18, 0.5);
     border-radius: 50%;
+}
+
+.product-main-section .product-section:nth-child(odd) .product-details::after {
+    right: initial;
+    left: -90px;
 }
 
 .product-number {
