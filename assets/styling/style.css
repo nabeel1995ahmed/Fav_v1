@@ -173,14 +173,29 @@ a {
     align-items: center;
     gap: 10px;
     margin-bottom: 20px;
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: all 0.8s ease;
 }
 
-.product-section:hover .product-card {
+.product-text {
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.product-head.show,
+.product-text.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.product-card:hover  {
     transform: translateY(-5px);
     box-shadow: 0 20px 45px rgba(2, 26, 58, 0.12);
 }
 
-.product-section:hover .product-card img {
+.product-card:hover img {
     transform: scale(1.06);
 }
 
@@ -226,6 +241,17 @@ a {
 .product-main-section .product-section:nth-child(even) .product-details h5,
 .product-main-section .product-section:nth-child(even) .product-details p {
     color: #021a3a;
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s ease;
+}
+
+.animate-on-scroll.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* =====================================
@@ -391,6 +417,8 @@ a {
     position: relative;
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .hero-section::after {
@@ -1514,6 +1542,59 @@ section.featured-section {
     width: auto;
     height: auto;
     object-fit: contain;
+}
+
+/* newsletter section css  */
+
+.newsletter-wrapper {
+    padding: 50px;
+    background: #283c57;
+    border-radius: 10px;
+}
+
+section.newsletter-section {
+    margin-bottom: 50px;
+}
+
+.newsletter-left {
+    color: #fff;
+}
+
+.newsletter-left span.newsletter-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    color: #f87212;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.newsletter-left span.newsletter-label::before {
+    content: "";
+    width: 22px;
+    height: 2px;
+    background: #f87212;
+    border-radius: 10px;
+}
+
+.newsletter-left h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.newsletter-right {
+    color: #ffff;
+}
+
+.newsletter-right .newsletter-input {
+    display: flex;
+    height: 44px;
+    overflow: hidden;
+    width: 100%;
 }
 
 
