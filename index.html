@@ -492,7 +492,7 @@
                         <div class="counter-box">
                             <i class="fal fa-building"></i>
                             <div class="counter-text">
-                                <h3>10+</h3>
+                                <h3 class="counter" data-count="10">0+</h3>
                                 <p>Business Divisions</p>
                             </div>
                         </div>
@@ -502,7 +502,7 @@
                         <div class="counter-box">
                             <i class="fal fa-box-open"></i>
                             <div class="counter-text">
-                                <h3>500+</h3>
+                                <h3 class="counter" data-count="500">0+</h3>
                                 <p>Products</p>
                             </div>
                         </div>
@@ -512,7 +512,7 @@
                         <div class="counter-box">
                             <i class="fal fa-users"></i>
                             <div class="counter-text">
-                                <h3>1000+</h3>
+                                <h3 class="counter" data-count="1000">0+</h3>
                                 <p>Happy Clients</p>
                             </div>
                         </div>
@@ -522,7 +522,7 @@
                         <div class="counter-box">
                             <i class="fal fa-stopwatch"></i>
                             <div class="counter-text">
-                                <h3>20+</h3>
+                                <h3 class="counter" data-count="20">0+</h3>
                                 <p>Years Experience</p>
                             </div>
                         </div>
@@ -532,7 +532,7 @@
                         <div class="counter-box">
                             <i class="fal fa-clock"></i>
                             <div class="counter-text">
-                                <h3>24/7</h3>
+                                <h3 class="counter-number" data-count="10">24/7</h3>
                                 <p>Support</p>
                             </div>
                         </div>
@@ -1066,6 +1066,87 @@
             }
         ]
     });
+
+    jQuery(document).ready(function ($) {
+
+    function startCounters() {
+
+        $('.counter').each(function () {
+
+            var $this = $(this);
+
+            if ($this.hasClass('counted')) {
+                return;
+            }
+
+            var elementTop = $this.offset().top;
+            var windowBottom = $(window).scrollTop() + $(window).height();
+
+            if (windowBottom > elementTop + 50) {
+
+                $this.addClass('counted');
+
+                var target = parseInt($this.attr('data-count'));
+
+                $({ countNum: 0 }).animate({
+                    countNum: target
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+
+                    step: function () {
+                        $this.text(Math.floor(this.countNum) + '+');
+                    },
+
+                    complete: function () {
+                        $this.text(target + '+');
+                    }
+                });
+            }
+        });
+
+
+        // Animate 24/7 text
+        $('.counter-text').each(function () {
+
+            var $this = $(this);
+
+            if ($this.hasClass('counted')) {
+                return;
+            }
+
+            var elementTop = $this.offset().top;
+            var windowBottom = $(window).scrollTop() + $(window).height();
+
+            if (windowBottom > elementTop + 50) {
+
+                $this.addClass('counted');
+
+                $this.css({
+                    opacity: 0,
+                    transform: 'translateY(20px)'
+                });
+
+                $this.animate({
+                    opacity: 1
+                }, 800);
+
+                $this.css({
+                    transform: 'translateY(0)',
+                    transition: 'transform 0.8s ease'
+                });
+            }
+        });
+
+    }
+
+    startCounters();
+
+    $(window).on('scroll', function () {
+        startCounters();
+    });
+
+});
 </script>
 
 </html>
