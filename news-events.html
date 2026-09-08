@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Events - Vawda</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/styling/style.css">
+</head>
+
+<body>
+
+    <a href="https://wa.me/923001234567" class="whatsapp-btn" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <header class="main-header">
+        <nav class="navbar navbar-expand-xl navbar-dark">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold p-0 m-0" href="index.html">
+                    <img src="./assets/images/logo/header/logo.png" alt="Vawda" height="65">
+                </a>
+                <div class="call-us mobile-call">
+                    <div class="call-icon">
+                        <i class="fal fa-phone-alt"></i>
+                    </div>
+                    <div class="call-text">
+                        <span>Call us Anytime</span>
+                        <p>+92 (21) 32550093-98</p>
+                    </div>
+                </div>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Textile Dyes & Chemicals</a></li>
+                                <li><a href="#" class="dropdown-item">Masterbatch</a></li>
+                                <li><a href="#" class="dropdown-item">Pigment Powder & Emulsion</a></li>
+                                <li><a href="#" class="dropdown-item">Toner Cartridges</a></li>
+                                <li><a href="#" class="dropdown-item">Office Supplies</a></li>
+                                <li><a href="#" class="dropdown-item">Industrial Automation Division</a></li>
+                                <li><a href="#" class="dropdown-item">Industrial Air Compressor</a></li>
+                                <li><a href="#" class="dropdown-item">Confectionery</a></li>
+                                <li><a href="#" class="dropdown-item">Security Solutions</a></li>
+                                <li><a href="#" class="dropdown-item">Printing Machines</a></li>
+                                <li><a href="#" class="dropdown-item">Energy Solutions</a></li>
+                                <li><a href="#" class="dropdown-item">Office Furniture</a></li>
+                                <li><a href="#" class="dropdown-item">Warehousing Solutons</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Principals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Certificates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="news-events.html">News & Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Careers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="call-us desktop-call">
+                        <div class="call-icon">
+                            <i class="fal fa-phone-alt"></i>
+                        </div>
+                        <div class="call-text">
+                            <span>Call us Anytime</span>
+                            <p>+92 (21) 32550093-98</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =========================
+         PAGE BANNER
+    ========================== -->
+    <section class="ne-page-banner">
+        <div class="container">
+            <div class="breadcrumb">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><i class="fal fa-angle-right"></i></li>
+                    <li><span>News & Events</span></li>
+                </ul>
+            </div>
+            <span class="hero-label">STAY UPDATED</span>
+            <h1 class="hero-title">NEWS &amp; <span>EVENTS</span></h1>
+            <p class="ne-banner-text">
+                Company announcements, industry highlights, and upcoming exhibitions
+                from Vawda Industrial &amp; Business Solutions.
+            </p>
+            <div class="hero-buttons">
+                <a href="#featured-news" class="btn btn-warning text-white">
+                    LATEST NEWS
+                    <i class="fal fa-newspaper"></i>
+                </a>
+                <a href="#upcoming-events" class="btn btn-outline-light">
+                    UPCOMING EVENTS
+                    <i class="fal fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="ne-banner-shape" aria-hidden="true"></div>
+    </section>
+
+    <!-- =========================
+         FILTER BAR
+    ========================== -->
+    <section class="ne-filter-section">
+        <div class="container">
+            <div class="ne-filter-bar" role="tablist" aria-label="Filter news and events">
+                <button type="button" class="ne-filter-btn active" data-filter="all" role="tab" aria-selected="true">
+                    <i class="fal fa-th-large"></i> All
+                </button>
+                <button type="button" class="ne-filter-btn" data-filter="news" role="tab" aria-selected="false">
+                    <i class="fal fa-newspaper"></i> News
+                </button>
+                <button type="button" class="ne-filter-btn" data-filter="events" role="tab" aria-selected="false">
+                    <i class="fal fa-calendar-alt"></i> Events
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         FEATURED NEWS
+    ========================== -->
+    <section class="ne-featured-section py-5" id="featured-news" data-ne-category="news">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <h2>FEATURED STORY</h2>
+                <div class="seprator"></div>
+            </div>
+
+            <div class="ne-featured-card">
+                <div class="row g-0 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="ne-featured-media">
+                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80"
+                                alt="Industrial facility and team collaboration">
+                            <span class="ne-badge">Featured</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ne-featured-content">
+                            <div class="ne-meta">
+                                <span class="ne-tag">Company</span>
+                                <span><i class="fal fa-calendar-alt"></i> Sep 02, 2026</span>
+                            </div>
+                            <h3>Vawda expands warehouse automation partnership across Pakistan</h3>
+                            <p>
+                                New distribution and automation capabilities strengthen reliable supply
+                                for textile, packaging, and industrial clients — with faster turnaround
+                                and dedicated technical support teams.
+                            </p>
+                            <a href="#" class="btn btn-warning text-white">
+                                READ MORE
+                                <i class="fal fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         UPCOMING EVENTS
+    ========================== -->
+    <section class="ne-events-section py-5" id="upcoming-events" data-ne-category="events">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <h2>UPCOMING EVENTS</h2>
+                <div class="seprator"></div>
+            </div>
+
+            <div class="ne-timeline">
+                <article class="ne-timeline-item" data-ne-category="events">
+                    <div class="ne-date-block">
+                        <span class="ne-month">SEP</span>
+                        <span class="ne-day">18</span>
+                        <span class="ne-year">2026</span>
+                    </div>
+                    <div class="ne-event-card">
+                        <div class="ne-event-top">
+                            <span class="ne-tag">Exhibition</span>
+                            <span class="ne-time"><i class="fal fa-clock"></i> 10:00 AM – 6:00 PM</span>
+                        </div>
+                        <h3>Textile Asia Trade Show — Booth B14</h3>
+                        <p>
+                            Meet our textile dyes, chemicals, and masterbatch specialists.
+                            Live demos and technical consultations available all day.
+                        </p>
+                        <div class="ne-event-footer">
+                            <span><i class="fal fa-map-marker-alt"></i> Expo Centre, Karachi</span>
+                            <a href="#" class="ne-link">Event Details <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="ne-timeline-item" data-ne-category="events">
+                    <div class="ne-date-block">
+                        <span class="ne-month">OCT</span>
+                        <span class="ne-day">07</span>
+                        <span class="ne-year">2026</span>
+                    </div>
+                    <div class="ne-event-card">
+                        <div class="ne-event-top">
+                            <span class="ne-tag">Seminar</span>
+                            <span class="ne-time"><i class="fal fa-clock"></i> 2:00 PM – 5:00 PM</span>
+                        </div>
+                        <h3>Industrial Automation &amp; Energy Efficiency Workshop</h3>
+                        <p>
+                            Practical sessions on smart factory upgrades, compressor optimization,
+                            and energy monitoring for production lines.
+                        </p>
+                        <div class="ne-event-footer">
+                            <span><i class="fal fa-map-marker-alt"></i> Vawda Head Office, S.I.T.E.</span>
+                            <a href="#" class="ne-link">Event Details <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="ne-timeline-item" data-ne-category="events">
+                    <div class="ne-date-block">
+                        <span class="ne-month">OCT</span>
+                        <span class="ne-day">22</span>
+                        <span class="ne-year">2026</span>
+                    </div>
+                    <div class="ne-event-card">
+                        <div class="ne-event-top">
+                            <span class="ne-tag">Open Day</span>
+                            <span class="ne-time"><i class="fal fa-clock"></i> 11:00 AM – 4:00 PM</span>
+                        </div>
+                        <h3>Security &amp; Office Solutions Customer Open Day</h3>
+                        <p>
+                            Explore CCTV, access control, toner, furniture, and office supply
+                            solutions with on-site product specialists.
+                        </p>
+                        <div class="ne-event-footer">
+                            <span><i class="fal fa-map-marker-alt"></i> Vawda Experience Center</span>
+                            <a href="#" class="ne-link">Event Details <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         LATEST NEWS
+    ========================== -->
+    <section class="ne-news-section py-5 bg-light" id="latest-news" data-ne-category="news">
+        <div class="container">
+            <div class="section-heading text-center mb-5">
+                <h2>LATEST NEWS</h2>
+                <div class="seprator"></div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-ne-category="news">
+                    <article class="ne-news-card">
+                        <div class="ne-news-img">
+                            <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=80"
+                                alt="Engineer inspecting industrial equipment">
+                            <span class="ne-date-chip">
+                                <strong>28</strong>
+                                <small>AUG</small>
+                            </span>
+                        </div>
+                        <div class="ne-news-body">
+                            <span class="ne-tag">Products</span>
+                            <h3><a href="#">New pigment emulsion range launched for packaging printers</a></h3>
+                            <p>
+                                High-strength colors designed for consistent results across flexible packaging lines.
+                            </p>
+                            <a href="#" class="ne-link">Read More <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-ne-category="news">
+                    <article class="ne-news-card">
+                        <div class="ne-news-img">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+                                alt="Modern industrial and office buildings">
+                            <span class="ne-date-chip">
+                                <strong>15</strong>
+                                <small>AUG</small>
+                            </span>
+                        </div>
+                        <div class="ne-news-body">
+                            <span class="ne-tag">Partnership</span>
+                            <h3><a href="#">Vawda strengthens energy solutions portfolio with new principals</a></h3>
+                            <p>
+                                Expanded offerings help factories cut downtime and improve power reliability.
+                            </p>
+                            <a href="#" class="ne-link">Read More <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-ne-category="news">
+                    <article class="ne-news-card">
+                        <div class="ne-news-img">
+                            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80"
+                                alt="Team meeting in a modern workplace">
+                            <span class="ne-date-chip">
+                                <strong>01</strong>
+                                <small>AUG</small>
+                            </span>
+                        </div>
+                        <div class="ne-news-body">
+                            <span class="ne-tag">Careers</span>
+                            <h3><a href="#">Technical sales roles open across industrial divisions</a></h3>
+                            <p>
+                                Join a growing team supporting clients in chemicals, automation, and office solutions.
+                            </p>
+                            <a href="#" class="ne-link">Read More <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Empty filter state -->
+    <section class="ne-empty-state d-none" id="ne-empty-state" aria-live="polite">
+        <div class="container text-center py-5">
+            <i class="fal fa-calendar-times"></i>
+            <h3>No items in this view</h3>
+            <p>Please choose another filter to continue browsing.</p>
+        </div>
+    </section>
+
+    <!-- =========================
+         CTA SECTION
+    ========================== -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <h2>
+                        Ready to Find the Right Solution
+                        for Your Business?
+                    </h2>
+                    <p>
+                        Get expert advice and the best products
+                        for your industry.
+                    </p>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-warning text-white">
+                            REQUEST A QUOTE
+                            <i class="fa fa-paper-plane"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light">
+                            CONTACT US
+                            <i class="fal fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row gy-3 justify-content-center">
+                <div class="col-lg-3">
+                    <a href="index.html">
+                        <img src="./assets/images/logo/footer/logo.png" alt="Vawda" height="60">
+                    </a>
+                    <p class="mt-3">
+                        Vawda is a diversified industrial and business solutions provider delivering quality products,
+                        advanced technology and reliable services to industries across the globe.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Our Principals</a></li>
+                        <li><a href="#">Certificates</a></li>
+                        <li><a href="news-events.html">News & Events</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <h5>Products</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Textile Dyes & Chemicals</a></li>
+                        <li><a href="#">Masterbatch</a></li>
+                        <li><a href="#">Pigment Powder & Emulsion</a></li>
+                        <li><a href="#">Toner Cartridges</a></li>
+                        <li><a href="#">Office Supplies</a></li>
+                        <li><a href="#">Industrial Automation Division</a></li>
+                        <li><a href="#">Industrial Air Compressor</a></li>
+                        <li><a href="#">Confectionery</a></li>
+                        <li><a href="#">Security Solutions</a></li>
+                        <li><a href="#">Printing Machines</a></li>
+                        <li><a href="#">Energy Solutions</a></li>
+                        <li><a href="#">Office Furniture</a></li>
+                        <li><a href="#">Warehousing Solutons</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6">
+                    <h5>Contact Info</h5>
+                    <div class="contact-box">
+                        <i class="fal fa-map-marker-alt"></i>
+                        <div class="contact-text">
+                            <h5>Head Office:</h5>
+                            <p>B-66/A, S.I.T.E., Area, Karachi-75700, Pakistan.</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <i class="fal fa-phone-alt"></i>
+                        <div class="contact-text">
+                            <h5>Phone:</h5>
+                            <p>+92 (21) 32550093-98</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <i class="fal fa-envelope"></i>
+                        <div class="contact-text">
+                            <h5>Email:</h5>
+                            <p>info@vawda.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <i class="fal fa-clock"></i>
+                        <div class="contact-text">
+                            <h5>Working Hours:</h5>
+                            <p>Mon - Sat: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="newsletter-box">
+                        <h5>NEWSLETTER</h5>
+                        <p>
+                            Subscribe to get updates on our
+                            latest products and offers.
+                        </p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Enter your email">
+                            <button type="submit">
+                                <i class="fa fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer-bottom">
+                            © 2024 Vawda. All Rights Reserved.
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <span class="line"></span>
+                            <a href="#">Terms & Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/news-events.js"></script>
+</body>
+
+</html>
