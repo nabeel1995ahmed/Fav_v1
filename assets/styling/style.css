@@ -2494,6 +2494,10 @@ section.newsletter-section {
 
 @media (max-width: 575.98px) {
 
+    .call-us i {
+        font-size: 22px;
+    }
+
     .ne-latest-section,
     .ne-upcoming-section,
     .ne-gallery-section {
