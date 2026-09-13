@@ -1,32 +1,36 @@
 (() => {
-  const filterButtons = document.querySelectorAll(".ne-filter-btn");
-  const categoryItems = document.querySelectorAll("[data-ne-category]");
-  const emptyState = document.getElementById("ne-empty-state");
+  if (typeof jQuery === "undefined" || !jQuery.fn.slick) return;
 
-  if (!filterButtons.length) return;
+  jQuery(function ($) {
+    const $gallery = $(".ne-gallery-slider");
+    if (!$gallery.length) return;
 
-  const applyFilter = (filter) => {
-    filterButtons.forEach((btn) => {
-      const isActive = btn.dataset.filter === filter;
-      btn.classList.toggle("active", isActive);
-      btn.setAttribute("aria-selected", isActive ? "true" : "false");
+    $gallery.slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3200,
+      dots: false,
+      arrows: true,
+      prevArrow:
+        '<button type="button" class="ne-gallery-arrow ne-gallery-prev" aria-label="Previous"><i class="fal fa-angle-left"></i></button>',
+      nextArrow:
+        '<button type="button" class="ne-gallery-arrow ne-gallery-next" aria-label="Next"><i class="fal fa-angle-right"></i></button>',
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: { slidesToShow: 3 },
+        },
+        {
+          breakpoint: 992,
+          settings: { slidesToShow: 2 },
+        },
+        {
+          breakpoint: 576,
+          settings: { slidesToShow: 1 },
+        },
+      ],
     });
-
-    let visibleCount = 0;
-
-    categoryItems.forEach((item) => {
-      const category = item.dataset.neCategory;
-      const show = filter === "all" || category === filter;
-      item.classList.toggle("ne-hidden", !show);
-      if (show) visibleCount += 1;
-    });
-
-    if (emptyState) {
-      emptyState.classList.toggle("d-none", visibleCount > 0);
-    }
-  };
-
-  filterButtons.forEach((btn) => {
-    btn.addEventListener("click", () => applyFilter(btn.dataset.filter));
   });
 })();
