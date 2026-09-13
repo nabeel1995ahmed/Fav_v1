@@ -415,7 +415,6 @@ a {
 ===================================== */
 
 .hero-section {
-    background-image: url(../images/home-page/main-banner.svg);
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -425,6 +424,14 @@ a {
     overflow: hidden;
     display: flex;
     align-items: center;
+}
+
+.home-page-hero {
+    background-image: url(../images/home-page/main-banner.svg);
+}
+
+.textile-dyes-and-chemicals-hero {
+    background-image: url(../images/products-and-solutions/textile-dyes-and-chemicals/main-banner.svg);
 }
 
 .hero-section::after {
@@ -1647,8 +1654,14 @@ section.newsletter-section {
 
     .hero-section {
         padding: 50px 0px;
-        /* text-align: center; */
+    }
+    
+    .home-page-hero {
         background-image: url(../images/home-page/main-banner-tablet-version.png);
+    }
+    
+    .textile-dyes-and-chemicals-hero {
+        background-image: url(../images/products-and-solutions/textile-dyes-and-chemicals/main-banner-tablet.svg);
     }
 
     .hero-image {
@@ -1858,7 +1871,16 @@ section.newsletter-section {
 
     section.hero-section {
         text-align: center;
+    }
+    
+    section.home-page-hero {
+        text-align: center;
         background-image: url(../images/home-page/main-banner-mobile-version.png);
+    }
+    
+    section.textile-dyes-and-chemicals-hero {
+        text-align: center;
+        background-image: url(../images/products-and-solutions/textile-dyes-and-chemicals/main-banner-mobile.svg);
     }
 
     .hero-features,
