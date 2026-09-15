@@ -434,6 +434,10 @@ a {
     background-image: url(../images/products-and-solutions/textile-dyes-and-chemicals/main-banner.svg);
 }
 
+.masterbatch-hero {
+    background-image: url(../images/products-and-solutions/masterbatch/main-banner.svg);
+}
+
 .hero-section::after {
     content: '';
     width: 100%;
@@ -1877,13 +1881,15 @@ section.newsletter-section {
     }
 
     section.home-page-hero {
-        text-align: center;
         background-image: url(../images/home-page/main-banner-mobile-version.png);
     }
 
     section.textile-dyes-and-chemicals-hero {
-        text-align: center;
         background-image: url(../images/products-and-solutions/textile-dyes-and-chemicals/main-banner-mobile.svg);
+    }
+    
+    section.masterbatch-hero {
+        background-image: url(../images/products-and-solutions/masterbatch/main-banner-mobile.svg);
     }
 
     .hero-features,
