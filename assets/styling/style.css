@@ -446,6 +446,12 @@ a {
 .office-supplies-hero {
     background-image: url(../images/products-and-solutions/office-supplies/office-supplies-main-banner.svg);
 }
+.industrial-automation-division-hero {
+    background-image: url(../images/products-and-solutions/industrial-automation-division/main-banner.svg);
+}
+.industrial-air-compressor-hero {
+    background-image: url(../images/products-and-solutions/industrial-air-compressor/main-banner.svg);
+}
 .hero-section::after {
     content: '';
     width: 100%;
@@ -1694,6 +1700,12 @@ section.newsletter-section {
         background-image: url(../images/products-and-solutions/office-supplies/main_banner_tablet.svg);
 
     }
+    .industrial-automation-division-hero {
+    background-image: url(../images/products-and-solutions/industrial-automation-division/main_banner_tablet.svg);
+    }
+    .industrial-air-compressor-hero {
+    background-image: url(../images/products-and-solutions/industrial-air-compressor/main_banner_tablet.svg);
+    }
     .hero-image {
         margin-top: 40px;
     }
@@ -1924,7 +1936,12 @@ section.newsletter-section {
         background-image: url(../images/products-and-solutions/office-supplies/main_banner_mobile.svg);
 
     }
-  
+    section.industrial-automation-division-hero {
+    background-image: url(../images/products-and-solutions/industrial-automation-division/main_banner_mobile.svg);
+    }
+    section.industrial-air-compressor-hero {
+    background-image: url(../images/products-and-solutions/industrial-air-compressor/main_banner_mobile.svg);
+    }
     .hero-features,
     .hero-buttons {
         justify-content: center;
