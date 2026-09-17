@@ -20,14 +20,13 @@
 </head>
 
 <body>
-    <div id="site-header"></div>
-    <script src="./assets/js/includes.js"></script>
+    <?php include './assets/includes/header.php'; ?>
 
     <!-- =========================
          HERO SECTION
     ========================== -->
 
-    <section class="hero-section">
+    <section class="hero-section textile-dyes-and-chemicals-hero">
 
         <div class="container">
 
@@ -37,7 +36,7 @@
                     <div class="breadcrumb">
                         <ul>
                             <li>
-                                <a href="./index.html">Home</a>
+                                <a href="./index.php">Home</a>
                             </li>
                             <li>
                                 <i class="fal fa-chevron-right"></i>
@@ -49,16 +48,16 @@
                                 <i class="fal fa-chevron-right"></i>
                             </li>
                             <li>
-                                <span>Masterbatch</span>
+                                <span>Textile Dyes & Chemicals</span>
                             </li>
                         </ul>
                     </div>
                     <h1 class="hero-title">
-                        <span>MASTERBATCH</span>
+                        TEXTILE DYES & <br> <span>CHEMICALS</span>
                     </h1>
 
                     <p class="hero-text">
-                        Advanced color and additive concentrates for consistent and efficient plastic manufacturing.
+                        High performance chemicals and dyes for modern textile industry
                     </p>
 
                     <div class="hero-list">
@@ -668,11 +667,10 @@
             </div>
         </div>
     </section> -->
-
     <!-- =========================
          FOOTER
     ========================== -->
-    <div id="site-footer"></div>
+    <?php include './assets/includes/footer.php'; ?>
 </body>
 <script src="./assets/jquery/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
