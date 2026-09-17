@@ -437,7 +437,15 @@ a {
 .masterbatch-hero {
     background-image: url(../images/products-and-solutions/masterbatch/main-banner.svg);
 }
-
+.pigment-powder-emulsion-hero {
+    background-image: url(../images/products-and-solutions/pigment-powders-and-emulsions/main-banner.svg);
+}
+.toner-cartridges-hero {
+    background-image: url(../images/products-and-solutions/toner-cartridges/toner-cartridges-main-banner.svg);
+}
+.office-supplies-hero {
+    background-image: url(../images/products-and-solutions/office-supplies/office-supplies-main-banner.svg);
+}
 .hero-section::after {
     content: '';
     width: 100%;
@@ -1670,7 +1678,22 @@ section.newsletter-section {
     .textile-dyes-and-chemicals-hero {
         background-image: url(../images/products-and-solutions/textile-dyes-and-chemicals/main-banner-tablet.svg);
     }
+    .masterbatch-hero {
+        background-image: url(../images/products-and-solutions/masterbatch/main-banner-tablet.svg);
 
+    }
+    .pigment-powder-emulsion-hero{
+        background-image: url(../images/products-and-solutions/pigment-powders-and-emulsions/main-banner-tablet.svg);
+        
+    }
+    .toner-cartridges-hero{
+        background-image: url(../images/products-and-solutions/toner-cartridges/main_banner_tablet.svg);
+        
+    }
+    .office-supplies-hero {
+        background-image: url(../images/products-and-solutions/office-supplies/main_banner_tablet.svg);
+
+    }
     .hero-image {
         margin-top: 40px;
     }
@@ -1891,7 +1914,17 @@ section.newsletter-section {
     section.masterbatch-hero {
         background-image: url(../images/products-and-solutions/masterbatch/main-banner-mobile.svg);
     }
+    section.pigment-powder-emulsion-hero {
+        background-image: url(../images/products-and-solutions/pigment-powders-and-emulsions/main-banner-mobile.svg);
+    }
+      section.toner-cartridges-hero {
+    background-image: url(../images/products-and-solutions/toner-cartridges/main_banner_mobile.svg);
+    }
+    section.office-supplies-hero {
+        background-image: url(../images/products-and-solutions/office-supplies/main_banner_mobile.svg);
 
+    }
+  
     .hero-features,
     .hero-buttons {
         justify-content: center;
