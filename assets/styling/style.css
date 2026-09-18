@@ -452,6 +452,9 @@ a {
 .industrial-air-compressor-hero {
     background-image: url(../images/products-and-solutions/industrial-air-compressor/main-banner.svg);
 }
+.confectionery-hero {
+    background-image: url(../images/products-and-solutions/confectionery/main-banner.svg);
+}
 .hero-section::after {
     content: '';
     width: 100%;
@@ -1706,6 +1709,9 @@ section.newsletter-section {
     .industrial-air-compressor-hero {
     background-image: url(../images/products-and-solutions/industrial-air-compressor/main_banner_tablet.svg);
     }
+    .confectionery-hero {
+    background-image: url(../images/products-and-solutions/confectionery/main-banner-tablet.svg);
+    }
     .hero-image {
         margin-top: 40px;
     }
@@ -1941,6 +1947,9 @@ section.newsletter-section {
     }
     section.industrial-air-compressor-hero {
     background-image: url(../images/products-and-solutions/industrial-air-compressor/main_banner_mobile.svg);
+    }
+    section.confectionery-hero {
+    background-image: url(../images/products-and-solutions/confectionery/main-banner-mobile.svg);
     }
     .hero-features,
     .hero-buttons {
