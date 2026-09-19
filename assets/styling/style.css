@@ -455,6 +455,9 @@ a {
 .confectionery-hero {
     background-image: url(../images/products-and-solutions/confectionery/main-banner.svg);
 }
+.security-solution-hero{
+    background-image: url(../images/products-and-solutions/security-solutions/main-banner.svg);
+}
 .hero-section::after {
     content: '';
     width: 100%;
@@ -1712,6 +1715,9 @@ section.newsletter-section {
     .confectionery-hero {
     background-image: url(../images/products-and-solutions/confectionery/main-banner-tablet.svg);
     }
+    .security-solution-hero{
+    background-image: url(../images/products-and-solutions/security-solutions/main_banner_tablet.svg);
+    }
     .hero-image {
         margin-top: 40px;
     }
@@ -1950,6 +1956,9 @@ section.newsletter-section {
     }
     section.confectionery-hero {
     background-image: url(../images/products-and-solutions/confectionery/main-banner-mobile.svg);
+    }
+    section.security-solution-hero{
+    background-image: url(../images/products-and-solutions/security-solutions/main_banner_tablet.svg);
     }
     .hero-features,
     .hero-buttons {
