@@ -19,9 +19,7 @@
 </head>
 
 <body>
-
-    <div id="site-header"></div>
-    <script src="./assets/js/includes.js"></script>
+    <?php include './assets/includes/header.php'; ?>
 
     <!-- =========================
          PAGE BANNER
@@ -30,7 +28,7 @@
         <div class="container">
             <div class="breadcrumb">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><i class="fal fa-angle-right"></i></li>
                     <li><span>News & Events</span></li>
                 </ul>
@@ -295,11 +293,10 @@
             </div>
         </div>
     </section>
-
     <!-- =========================
          FOOTER
     ========================== -->
-    <div id="site-footer"></div>
+    <?php include './assets/includes/footer.php'; ?>
 <script src="./assets/jquery/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/slick-slider/slick/slick.min.js"></script>

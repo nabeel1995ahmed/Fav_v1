@@ -20,24 +20,22 @@
 </head>
 
 <body>
-    <div id="site-header"></div>
-    <script src="./assets/js/includes.js"></script>
+    <?php include './assets/includes/header.php'; ?>
 
     <!-- =========================
          HERO SECTION
     ========================== -->
 
-    <section class="hero-section">
+    <section class="hero-section home-page-hero">
 
         <div class="container">
 
             <div class="row align-items-center">
 
                 <div class="col-lg-7">
-                    <span class="hero-label">ONE PARTNER ALL SOLUTIONS.</span>
                     <h1 class="hero-title">
-                        COMPLETE INDUSTRIAL &
-                        <span>BUSINESS SOLUTIONS</span>
+                        COMPLETE <span>INDUSTRIAL &
+                            BUSINESS </span>SOLUTIONS
                     </h1>
 
                     <p class="hero-text">
@@ -49,12 +47,12 @@
                     <div class="hero-buttons">
 
                         <a href="#" class="btn btn-warning text-white">
-                            EXPLORE DIVISIONS
+                            REQUEST A QUOTE
                             <i class="fa fa-paper-plane"></i>
                         </a>
 
                         <a href="#" class="btn btn-outline-light">
-                            CONTACT US
+                            EXPLORE DIVISIONS
                             <i class="fal fa-arrow-right"></i>
                         </a>
 
@@ -116,43 +114,42 @@
 
                 <div class="col-lg-3 col-md-6 col-6">
                     <div class="division-card">
-                        <img src="../assets/images/about-us-image.jpg" class="img-fluid" alt="">
+                        <img src="./assets/images/divisions/textile-dyes-and-chemicals.svg" class="img-fluid" alt="">
                         <div class="division-content">
                             <div class="icon orange">
                                 <i class="fa fa-flask"></i>
                             </div>
                             <h5>TEXTILE CHEMICALS</h5>
                             <ul>
-                                <li>Textile Dyes & Chemicals</li>
-                                <li>Masterbatches</li>
-                                <li>Pigment Powders</li>
+                                <li><a href="">Textile Dyes & Chemicals</a></li>
+                                <li><a href="">Masterbatch</a></li>
+                                <li><a href="">Pigment Powders & Emulsions</a></li>
                             </ul>
-                            <a href="#">
-                                View More <i class="fal fa-long-arrow-right"></i>
-                            </a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Card 2 -->
+
                 <div class="col-lg-3 col-md-6 col-6">
+
                     <div class="division-card">
-                        <img src="../assets/images/about-us-image.jpg" class="img-fluid" alt="">
+
+                        <img src="./assets/images/divisions/office-solutions.svg" class="img-fluid" alt="">
+
                         <div class="division-content">
-                            <div class="icon blue">
-                                <i class="fa fa-robot"></i>
+
+                            <div class="icon cyan">
+                                <i class="fa fa-phone-office"></i>
                             </div>
-                            <h5>INDUSTRIAL SYSTEMS</h5>
+
+                            <h5>OFFICE SOLUTIONS</h5>
+
                             <ul>
-                                <li>Automation Division</li>
-                                <li>Industrial Equipment</li>
-                                <li>Air Compressors</li>
+                                <li><a href="">Toner Cartridges</a></li>
+                                <li><a href="">Office Supplies</a></li>
+                                <li><a href="">Office Furniture</a></li>
                             </ul>
-
-                            <a href="#">
-                                View More <i class="fal fa-long-arrow-right"></i>
-                            </a>
-
                         </div>
 
                     </div>
@@ -160,31 +157,18 @@
                 </div>
 
                 <!-- Card 3 -->
-
                 <div class="col-lg-3 col-md-6 col-6">
-
                     <div class="division-card">
-
-                        <img src="../assets/images/about-us-image.jpg" class="img-fluid" alt="">
-
+                        <img src="./assets/images/divisions/industrial-systems.svg" class="img-fluid" alt="">
                         <div class="division-content">
-
-                            <div class="icon green">
-                                <i class="fa fa-bolt"></i>
+                            <div class="icon blue">
+                                <i class="fa fa-robot"></i>
                             </div>
-
-                            <h5>ENERGY SOLUTIONS</h5>
-
+                            <h5>INDUSTRIAL SYSTEMS</h5>
                             <ul>
-                                <li>Solar Energy</li>
-                                <li>Power Systems</li>
-                                <li>Sustainable Future</li>
+                                <li><a href="">Industrial Automation Division</a></li>
+                                <li><a href="">Industrial Air Compressors</a></li>
                             </ul>
-
-                            <a href="#">
-                                View More <i class="fal fa-long-arrow-right"></i>
-                            </a>
-
                         </div>
 
                     </div>
@@ -197,26 +181,19 @@
 
                     <div class="division-card">
 
-                        <img src="../assets/images/about-us-image.jpg" class="img-fluid" alt="">
+                        <img src="./assets/images/divisions/consumer-products.svg" class="img-fluid" alt="">
 
                         <div class="division-content">
 
-                            <div class="icon purple">
-                                <i class="fa fa-shield-check"></i>
+                            <div class="icon red">
+                                <i class="fa fa-candy-cane"></i>
                             </div>
 
-                            <h5>SECURITY SOLUTIONS</h5>
+                            <h5>CONSUMER PRODUCTS</h5>
 
                             <ul>
-                                <li>Security Systems</li>
-                                <li>Surveillance Cameras</li>
-                                <li>Access Control</li>
+                                <li><a href="">Confectionery</a></li>
                             </ul>
-
-                            <a href="#">
-                                View More <i class="fal fa-long-arrow-right"></i>
-                            </a>
-
                         </div>
 
                     </div>
@@ -229,26 +206,19 @@
 
                     <div class="division-card">
 
-                        <img src="../assets/images/about-us-image.jpg" class="img-fluid" alt="">
+                        <img src="./assets/images/divisions/energy-solutions.svg" class="img-fluid" alt="">
 
                         <div class="division-content">
 
-                            <div class="icon cyan">
-                                <i class="fa fa-phone-office"></i>
+                            <div class="icon green">
+                                <i class="fa fa-bolt"></i>
                             </div>
 
-                            <h5>OFFICE SOLUTIONS</h5>
+                            <h5>ENERGY SOLUTIONS</h5>
 
                             <ul>
-                                <li>Toner Cartridges</li>
-                                <li>Office Supplies</li>
-                                <li>Office Furniture</li>
+                                <li><a href="">Energy Solution</a></li>
                             </ul>
-
-                            <a href="#">
-                                View More <i class="fal fa-long-arrow-right"></i>
-                            </a>
-
                         </div>
 
                     </div>
@@ -261,26 +231,19 @@
 
                     <div class="division-card">
 
-                        <img src="../assets/images/about-us-image.jpg" class="img-fluid" alt="">
+                        <img src="./assets/images/divisions/security-solutions.svg" class="img-fluid" alt="">
 
                         <div class="division-content">
 
-                            <div class="icon pink">
-                                <i class="fa fa-print"></i>
+                            <div class="icon purple">
+                                <i class="fa fa-shield-check"></i>
                             </div>
 
-                            <h5>PRINTING SOLUTIONS</h5>
+                            <h5>SECURITY SOLUTIONS</h5>
 
                             <ul>
-                                <li>Printing Machines</li>
-                                <li>Consumables</li>
-                                <li>After Sales Support</li>
+                                <li><a href="">Security Solution</a></li>
                             </ul>
-
-                            <a href="#">
-                                View More <i class="fal fa-long-arrow-right"></i>
-                            </a>
-
                         </div>
 
                     </div>
@@ -293,26 +256,19 @@
 
                     <div class="division-card">
 
-                        <img src="../assets/images/about-us-image.jpg" class="img-fluid" alt="">
+                        <img src="./assets/images/divisions/printing-solutions.svg" class="img-fluid" alt="">
 
                         <div class="division-content">
 
-                            <div class="icon orange">
-                                <i class="fa fa-warehouse"></i>
+                            <div class="icon pink">
+                                <i class="fa fa-print"></i>
                             </div>
 
-                            <h5>WAREHOUSING</h5>
+                            <h5>PRINTING SOLUTIONS</h5>
 
                             <ul>
-                                <li>Warehouse Solutions</li>
-                                <li>Storage Systems</li>
-                                <li>Material Handling</li>
+                                <li><a href="">Printing Machines</a></li>
                             </ul>
-
-                            <a href="#">
-                                View More <i class="fal fa-long-arrow-right"></i>
-                            </a>
-
                         </div>
 
                     </div>
@@ -325,102 +281,31 @@
 
                     <div class="division-card">
 
-                        <img src="../assets/images/about-us-image.jpg" class="img-fluid" alt="">
+                        <img src="./assets/images/divisions/infrastructure-solutions.svg" class="img-fluid" alt="">
 
                         <div class="division-content">
 
-                            <div class="icon red">
-                                <i class="fa fa-candy-cane"></i>
+                            <div class="icon orange">
+                                <i class="fa fa-warehouse"></i>
                             </div>
 
-                            <h5>CONFECTIONERY</h5>
+                            <h5>INFRASTRUCTURE SOLUTIONS</h5>
 
                             <ul>
-                                <li>Confectionery Products</li>
-                                <li>Quality & Taste</li>
-                                <li>Hygienic Packaging</li>
+                                <li><a href="">Warehouse Solutions</a></li>
                             </ul>
-
-                            <a href="#">
-                                View More <i class="fal fa-long-arrow-right"></i>
-                            </a>
-
                         </div>
 
                     </div>
 
                 </div>
 
+
+
             </div>
 
         </div>
 
-    </section>
-
-    <!-- =========================
-         COUNTER SECTION
-    ========================== -->
-
-    <section class="counter-section second-counter-section">
-        <div class="container">
-            <div class="stats-wrapper">
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fal fa-building"></i>
-                    </div>
-                    <div class="stat-text-wrapper">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-text">Business<br>Divisions</div>
-                    </div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fal fa-box-open"></i>
-                    </div>
-                    <div class="stat-text-wrapper">
-                        <div class="stat-number">500+</div>
-                        <div class="stat-text">Products</div>
-                    </div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fal fa-users"></i>
-                    </div>
-                    <div class="stat-text-wrapper">
-                        <div class="stat-number">1000+</div>
-                        <div class="stat-text">Happy<br>Clients</div>
-                    </div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fal fa-stopwatch"></i>
-                    </div>
-                    <div class="stat-text-wrapper">
-                        <div class="stat-number">20+</div>
-                        <div class="stat-text">Years of<br>Experience</div>
-                    </div>
-                </div>
-
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fal fa-clock"></i>
-                    </div>
-                    <div class="stat-text-wrapper">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-text">Customer<br>Support</div>
-                    </div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fal fa-bullseye-arrow"></i>
-                    </div>
-                    <div class="stat-text-wrapper">
-                        <div class="stat-number">Worldwide</div>
-                        <div class="stat-text">Supply<br>Network</div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
 
@@ -428,7 +313,7 @@
          WHY CHOOSE US
     ========================== -->
 
-    <section class="why-us second-why-us-section">
+    <section class="why-us">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4">
@@ -444,7 +329,7 @@
                             innovation and a customer-first approach.
                         </p>
                         <a href="#" class="btn btn-outline-light">
-                            LEARN MORE ABOUT US <i class="fal fa-arrow-right"></i>
+                            ABOUT US <i class="fal fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -471,7 +356,7 @@
                         <div class="col-6 col-md-6 col-lg-3 feature-card-box">
                             <div class="feature-card">
                                 <i class="fa fa-screwdriver"></i>
-                                <h5>Technical <br> Expertise</h5>
+                                <h5>Expert <br> Support</h5>
                                 <p>
                                     Technical expertise at every step
                                 </p>
@@ -480,7 +365,7 @@
                         <div class="col-6 col-md-6 col-lg-3 feature-card-box">
                             <div class="feature-card">
                                 <i class="fa fa-users"></i>
-                                <h5>Customer <br> Satisfaction</h5>
+                                <h5>100% <br> Satisfaction</h5>
                                 <p>
                                     Customer satisfaction is our prionty
                                 </p>
@@ -493,72 +378,59 @@
     </section>
 
     <!-- =========================
-     FEATURED PRODUCT & SOLUTIONS
-========================== -->
+         COUNTER SECTION
+    ========================== -->
 
-    <section class="featured-section pt-5">
+    <section class="counter-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading text-center mb-4">
-                        <h2>FEATURED PRODUCTS & SOLUTIONS</h2>
-                        <div class="seprator"></div>
+            <div class="counter-box-wrapper">
+                <div class="row">
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="counter-box">
+                            <i class="fal fa-building"></i>
+                            <div class="counter-text">
+                                <h3 class="counter" data-count="10">0+</h3>
+                                <p>Business Divisions</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="feature-product-slider">
-                        <div class="feature-product-box">
-                            <div class="feature-img">
-                                <img src="../assets/images/about-us-image.jpg" alt="">
-                            </div>
-                            <div class="feature-title">
-                                <h4>Textile Dyes & Chemicals</h4>
-                            </div>
-                        </div>
-                        <div class="feature-product-box">
-                            <div class="feature-img">
-                                <img src="../assets/images/about-us-image.jpg" alt="">
-                            </div>
-                            <div class="feature-title">
-                                <h4>Industrial Automation</h4>
+
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="counter-box">
+                            <i class="fal fa-box-open"></i>
+                            <div class="counter-text">
+                                <h3 class="counter" data-count="500">0+</h3>
+                                <p>Products</p>
                             </div>
                         </div>
-                        <div class="feature-product-box">
-                            <div class="feature-img">
-                                <img src="../assets/images/about-us-image.jpg" alt="">
-                            </div>
-                            <div class="feature-title">
-                                <h4>Air Compressor </h4>
-                            </div>
-                        </div>
-                        <div class="feature-product-box">
-                            <div class="feature-img">
-                                <img src="../assets/images/about-us-image.jpg" alt="">
-                            </div>
-                            <div class="feature-title">
-                                <h4>Printing Machines</h4>
+                    </div>
+
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="counter-box">
+                            <i class="fal fa-users"></i>
+                            <div class="counter-text">
+                                <h3 class="counter" data-count="1000">0+</h3>
+                                <p>Happy Clients</p>
                             </div>
                         </div>
-                        <div class="feature-product-box">
-                            <div class="feature-img">
-                                <img src="../assets/images/about-us-image.jpg" alt="">
-                            </div>
-                            <div class="feature-title">
-                                <h4>Printing Machines</h4>
-                            </div>
-                        </div>
-                        <div class="feature-product-box">
-                            <div class="feature-img">
-                                <img src="../assets/images/about-us-image.jpg" alt="">
-                            </div>
-                            <div class="feature-title">
-                                <h4>Security Systems</h4>
+                    </div>
+
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="counter-box">
+                            <i class="fal fa-stopwatch"></i>
+                            <div class="counter-text">
+                                <h3 class="counter" data-count="20">0+</h3>
+                                <p>Years Experience</p>
                             </div>
                         </div>
-                        <div class="feature-product-box">
-                            <div class="feature-img">
-                                <img src="../assets/images/about-us-image.jpg" alt="">
-                            </div>
-                            <div class="feature-title">
-                                <h4>Textile Dyes & Chemicals</h4>
+                    </div>
+
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="counter-box">
+                            <i class="fal fa-clock"></i>
+                            <div class="counter-text">
+                                <h3 class="counter-number" data-count="10">24/7</h3>
+                                <p>Support</p>
                             </div>
                         </div>
                     </div>
@@ -568,61 +440,187 @@
     </section>
 
     <!-- =========================
-     INDUSTRIES WE SERVE
+     TRUSTED PARTNERS
 ========================== -->
 
-    <section class="industries-serve-section pb-5">
+    <section class="partners-section pt-5 pb-2">
+
+        <div class="container">
+            <div class="section-heading text-center mb-4">
+                <h2>OUR TRUSTED PARTNERS</h2>
+                <div class="seprator"></div>
+            </div>
+            <div class="row align-items-center justify-content-center g-4">
+                <div class="trust-logo-slider">
+                    <div class="trust-logo-wrapper">
+
+                        <!-- first set  -->
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/dupont-logo.png" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/basf-logo.svg" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/samsung-logo.png" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/Schneider_Electric.png" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/canon-logo.png" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/Honeywell-Logo.png" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/LG-Logo.webp" class="partner-logo"></div>
+                        <!-- second set  -->
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/dupont-logo.png" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/basf-logo.svg" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/samsung-logo.png" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/Schneider_Electric.png" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/canon-logo.png" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/Honeywell-Logo.png" class="partner-logo"></div>
+                        <div class="trust-logo"><img src="./assets/images/logo/trusted-partners/LG-Logo.webp" class="partner-logo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- =========================
+     FEATURED PRODUCT & SOLUTIONS
+========================== -->
+
+    <section class="featured-section pt-3">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading text-center mb-4">
-                        <h2>INDUSTRIES WE SERVEE</h2>
+                        <h2>FEATURED PRODUCTS & SOLUTIONS</h2>
                         <div class="seprator"></div>
                     </div>
-                    <div class="industries-grid">
-
-                        <div class="industry-box">
-                            <i class="fal fa-tshirt"></i>
-                            <h4>Textile Industry</h4>
+                    <div class="feature-product-slider">
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/textile-dyes-and-chemicals/textile-dyes-and-chemicals.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Textile Dyes & Chemicals</h4>
+                                </div>
+                            </a>
                         </div>
-
-                        <div class="industry-box">
-                            <i class="fal fa-industry-alt"></i>
-                            <h4>Manufacturing</h4>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/masterbatch/masterbatch.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Masterbatch</h4>
+                                </div>
+                            </a>
                         </div>
-
-                        <div class="industry-box">
-                            <i class="fal fa-box-open"></i>
-                            <h4>Packaging</h4>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/pigment-powders-and-emulsions/pigment-powder-and-emulsion.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Pigment Powder & Emulsion</h4>
+                                </div>
+                            </a>
                         </div>
-
-                        <div class="industry-box">
-                            <i class="fal fa-warehouse"></i>
-                            <h4>Warehousing</h4>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/toner-cartridges/toner-cartridges.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Toner Cartridges</h4>
+                                </div>
+                            </a>
                         </div>
-
-                        <div class="industry-box">
-                            <i class="fal fa-flask"></i>
-                            <h4>Chemical Industry</h4>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/office-supplies/office-supplies.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Office Supplies</h4>
+                                </div>
+                            </a>
                         </div>
-
-                        <div class="industry-box">
-                            <i class="fal fa-store"></i>
-                            <h4>Retail & Offices</h4>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/industrial-automation-division/industrial-automation-division.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Industrial Automation Division</h4>
+                                </div>
+                            </a>
                         </div>
-
-                        <div class="industry-box">
-                            <i class="fal fa-utensils"></i>
-                            <h4>Food Industry</h4>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/industrial-air-compressor/industrial-air-compressor.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Industrial Air Compressor</h4>
+                                </div>
+                            </a>
                         </div>
-
-                        <div class="industry-box">
-                            <i class="fal fa-bolt"></i>
-                            <h4>Energy Sector</h4>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/confectionery/confectionery.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Confectionery</h4>
+                                </div>
+                            </a>
                         </div>
-
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/security-solutions/security-solutions.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Security Solutions</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/printing-machines/printing-machines.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Printing Machines</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/energy-solutions/energy-solutions.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Energy Solutions</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/office-furnitures/office-furnitures.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Office Furniture</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="feature-product-box">
+                            <a href="">
+                                <div class="feature-img">
+                                    <img src="./assets/images/products-and-solutions/warehousing-solutions/warehousing-solutions.svg" alt="">
+                                </div>
+                                <div class="feature-title">
+                                    <h4>Warehousing Solutons</h4>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -777,11 +775,10 @@
         </div>
 
     </section>
-
     <!-- =========================
          FOOTER
     ========================== -->
-    <div id="site-footer"></div>
+    <?php include './assets/includes/footer.php'; ?>
 </body>
 <script src="./assets/jquery/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -796,8 +793,7 @@
         dots: true,
         prevArrow: false,
         nextArrow: false,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 2
@@ -822,13 +818,12 @@
         infinite: true,
         slidesToShow: 6,
         slidesToScroll: 1,
-        // autoplay: true,
-        // autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 2000,
         dots: false,
         prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-angle-left"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="fal fa-angle-right"></i></button>',
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 4
@@ -849,6 +844,86 @@
         ]
     });
 
+    jQuery(document).ready(function ($) {
+
+    function startCounters() {
+
+        $('.counter').each(function () {
+
+            var $this = $(this);
+
+            if ($this.hasClass('counted')) {
+                return;
+            }
+
+            var elementTop = $this.offset().top;
+            var windowBottom = $(window).scrollTop() + $(window).height();
+
+            if (windowBottom > elementTop + 50) {
+
+                $this.addClass('counted');
+
+                var target = parseInt($this.attr('data-count'));
+
+                $({ countNum: 0 }).animate({
+                    countNum: target
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+
+                    step: function () {
+                        $this.text(Math.floor(this.countNum) + '+');
+                    },
+
+                    complete: function () {
+                        $this.text(target + '+');
+                    }
+                });
+            }
+        });
+
+
+        // Animate 24/7 text
+        $('.counter-text').each(function () {
+
+            var $this = $(this);
+
+            if ($this.hasClass('counted')) {
+                return;
+            }
+
+            var elementTop = $this.offset().top;
+            var windowBottom = $(window).scrollTop() + $(window).height();
+
+            if (windowBottom > elementTop + 50) {
+
+                $this.addClass('counted');
+
+                $this.css({
+                    opacity: 0,
+                    transform: 'translateY(20px)'
+                });
+
+                $this.animate({
+                    opacity: 1
+                }, 800);
+
+                $this.css({
+                    transform: 'translateY(0)',
+                    transition: 'transform 0.8s ease'
+                });
+            }
+        });
+
+    }
+
+    startCounters();
+
+    $(window).on('scroll', function () {
+        startCounters();
+    });
+
+});
 </script>
 
 </html>

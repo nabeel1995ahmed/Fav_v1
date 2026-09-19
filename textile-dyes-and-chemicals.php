@@ -20,8 +20,7 @@
 </head>
 
 <body>
-    <div id="site-header"></div>
-    <script src="./assets/js/includes.js"></script>
+    <?php include './assets/includes/header.php'; ?>
 
     <!-- =========================
          HERO SECTION
@@ -37,7 +36,7 @@
                     <div class="breadcrumb">
                         <ul>
                             <li>
-                                <a href="./index.html">Home</a>
+                                <a href="./index.php">Home</a>
                             </li>
                             <li>
                                 <i class="fal fa-chevron-right"></i>
@@ -668,11 +667,10 @@
             </div>
         </div>
     </section> -->
-
     <!-- =========================
          FOOTER
     ========================== -->
-    <div id="site-footer"></div>
+    <?php include './assets/includes/footer.php'; ?>
 </body>
 <script src="./assets/jquery/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
