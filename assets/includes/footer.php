@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row gy-3 justify-content-center">
             <div class="col-lg-3">
-                <a href="./index.html">
+                <a href="./index.php">
                     <img src="./assets/images/logo/footer/logo.png" alt="Vawda" height="60">
                 </a>
                 <p class="mt-3">
@@ -19,21 +19,21 @@
             <div class="col-lg-2 col-sm-4 col-6">
                 <h5>Quick Links</h5>
                 <ul class="footer-links">
-                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./index.php">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Our Principals</a></li>
                     <li><a href="#">Certificates</a></li>
-                    <li><a href="./news-events.html">News & Events</a></li>
+                    <li><a href="./news-events.php">News & Events</a></li>
                     <li><a href="#">Career</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="./contact-us.php">Contact Us</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-sm-4 col-6">
                 <h5>Products</h5>
                 <ul class="footer-links">
-                    <li><a href="./textile-dyes-and-chemicals.html">Textile Dyes & Chemicals</a></li>
-                    <li><a href="./masterbatch.html">Masterbatch</a></li>
+                    <li><a href="./textile-dyes-and-chemicals.php">Textile Dyes & Chemicals</a></li>
+                    <li><a href="./masterbatch.php">Masterbatch</a></li>
                     <li><a href="#">Pigment Powder & Emulsion</a></li>
                     <li><a href="#">Toner Cartridges</a></li>
                     <li><a href="#">Office Supplies</a></li>
