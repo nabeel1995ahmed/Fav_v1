@@ -458,6 +458,15 @@ a {
 .security-solution-hero{
     background-image: url(../images/products-and-solutions/security-solutions/main-banner.svg);
 }
+.printing-machines-hero {
+    background-image: url(../images/products-and-solutions/printing-machines/main-banner.svg);
+}
+.energy-solutions-hero {
+    background-image: url(../images/products-and-solutions/energy-solutions/main-banner.svg);
+}
+.office-furniture-hero {
+    background-image: url(../images/products-and-solutions/office-furnitures/main-banner.svg);
+}
 .hero-section::after {
     content: '';
     width: 100%;
@@ -1718,6 +1727,15 @@ section.newsletter-section {
     .security-solution-hero{
     background-image: url(../images/products-and-solutions/security-solutions/main_banner_tablet.svg);
     }
+    .printing-machines-hero {
+    background-image: url(../images/products-and-solutions/printing-machines/main_banner_tablet.svg);
+    }
+    .energy-solutions-hero {
+    background-image: url(../images/products-and-solutions/energy-solutions/main_banner_tablet.svg);
+    }
+    .office-furniture-hero {
+    background-image: url(../images/products-and-solutions/office-furnitures/main_banner_tablet.svg);
+    }
     .hero-image {
         margin-top: 40px;
     }
@@ -1958,7 +1976,16 @@ section.newsletter-section {
     background-image: url(../images/products-and-solutions/confectionery/main-banner-mobile.svg);
     }
     section.security-solution-hero{
-    background-image: url(../images/products-and-solutions/security-solutions/main_banner_tablet.svg);
+    background-image: url(../images/products-and-solutions/security-solutions/main_banner_mobile.svg);
+    }
+    section.printing-machines-hero {
+    background-image: url(../images/products-and-solutions/printing-machines/main_banner_mobile.svg);
+    }
+    section.energy-solutions-hero {
+    background-image: url(../images/products-and-solutions/energy-solutions/main_banner_mobile.svg);
+    }
+    section.office-furniture-hero {
+    background-image: url(../images/products-and-solutions/office-furnitures/main_banner_mobile.svg);
     }
     .hero-features,
     .hero-buttons {
